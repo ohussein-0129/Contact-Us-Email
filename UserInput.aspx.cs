@@ -21,7 +21,7 @@ public partial class _Default : System.Web.UI.Page
             mailmsg.Body = generateBody(this.Msg.Text, this.Email.Text, this.Name.Text);
             mailmsg.IsBodyHtml = true;
 
-            mailmsg.To.Add(new MailAddress("osman_990@hotmail.com", "Osman Hussein"));
+            mailmsg.To.Add(new MailAddress("destination@gmail.com", "FirstName LastName"));
             SmtpClient scl = new SmtpClient();
             try
             {
