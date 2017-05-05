@@ -1,0 +1,38 @@
+﻿form{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#Label1{
+    font-family: Calibri;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.label{
+    position: absolute;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.tbox{
+    margin-left: 120px;
+    display: inline-block;
+    height: 25px;
+    width: 250px;
+    outline: none;
+    background-color: #F8F8F8;
+    border: solid;
+    border-color: #F8F8F8;
+    border-width: 2px;
+}
+
+.msgLabel{
+    position: relative;
+    left: 100px;
+    font-size: 20px;
+}
+
+#Msg{
+    
+}
