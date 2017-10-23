@@ -1,4 +1,7 @@
-﻿form{
+﻿body{
+    background-color: #d3cfe3;
+}
+form{
     margin-left: 100px;
     margin-top: 20px;
 }
@@ -27,12 +30,31 @@
     border-width: 2px;
 }
 
-.msgLabel{
+#LabelMessage{
     position: relative;
-    left: 100px;
+    left: 150px;
     font-size: 20px;
 }
 
 #Msg{
-    
+    position: relative;
+    left: 60px;
+    font-size: 18px;
+    font-family: Calibri;
+    height: 150px;
+}
+
+#fileUp{
+    position: relative;
+    left: 100px;
+    padding-bottom: 10px;
+}
+
+#bSend{
+    position: relative;
+    left: 170px;
+    background-color: purple;
+    height: 30px;
+    border-color: lightgreen;
+    color: lightgrey;
 }

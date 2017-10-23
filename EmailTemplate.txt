@@ -1,0 +1,9 @@
+<div id="main_message" style="font-family: Calibri">
+    <span style="display: block; font-size: 23px; padding-bottom: 18px; color: black">
+        [[MsgBody]]
+    </span>
+    <p style="font-size:14px; color: darkblue">
+        Sender Name: [[SenderName]] <br />
+        Sender Email: [[SenderEmail]]
+    </p>
+</div>
