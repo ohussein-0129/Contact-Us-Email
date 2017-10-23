@@ -79,7 +79,7 @@ public partial class _Default : System.Web.UI.Page
             }
             catch (SmtpException smtpException)
             {
-                System.Diagnostics.Debug.WriteLine("Email Provider may be blocking access"); //Email providors normally block it as this is a less secure connection (i.e the password is visible in the source code, refer to 'NetworkCredential' on line 75)
+                System.Diagnostics.Debug.WriteLine("Email Provider may be blocking access"); //Email providors normally block it as this is a less secure connection (i.e the password is visible in the source code, refer to 'NetworkCredential' on line 76)
                 System.Diagnostics.Debug.WriteLine(smtpException.Message); //There can be other causes so a message is also displayed 
             }
             finally
